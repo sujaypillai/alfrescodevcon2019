@@ -192,7 +192,7 @@ The [`deploy`](https://docs.docker.com/compose/compose-file/#deploy) key is new 
 
 Now that the app is running, you can go to `http://localhost:5000` to see:
 
-<img src="../images/vote.png" title="vote">
+<img src="images/vote.png" title="vote">
 
 Click on one to vote. You can check the results at `http://localhost:5001`.
 
