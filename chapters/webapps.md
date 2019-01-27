@@ -223,7 +223,7 @@ if __name__ == "__main__":
 In order to install the Python modules required for our app, we need to create a file called **requirements.txt** and add the following line to that file:
 
 ```
-Flask==0.10.1
+Flask==1.0.2
 ```
 
 #### templates/index.html
@@ -341,7 +341,7 @@ A [Dockerfile](https://docs.docker.com/engine/reference/builder/) is a text file
 
 Now that you have your `Dockerfile`, you can build your image. The `docker build` command does the heavy-lifting of creating a docker image from a `Dockerfile`.
 
-When you run the `docker build` command given below, make sure to replace `<YOUR_USERNAME>` with your username. This username should be the same one you created when registering on [Docker Cloud](https://cloud.docker.com). If you haven't done that yet, please go ahead and create an account.
+When you run the `docker build` command given below, make sure to replace `<YOUR_USERNAME>` with your username. This username should be the same one you created when registering on [Docker Hub](https://hub.docker.com). If you haven't done that yet, please go ahead and create an account.
 
 The `docker build` command is quite simple - it takes an optional tag name with the `-t` flag, and the location of the directory containing the `Dockerfile` - the `.` indicates the current directory:
 
@@ -423,7 +423,7 @@ $ docker run -p 8888:5000 --name myfirstapp YOUR_USERNAME/myfirstapp
 
 Head over to `http://localhost:8888` and your app should be live. **Note** If you are using Docker Machine, you may need to open up another terminal and determine the container ip address using `docker-machine ip default`.
 
-<img src="../images/catgif.png" title="static">
+<img src="images/catgif.png" title="static">
 
 Hit the Refresh button in the web browser to see a few more cat images.
 
