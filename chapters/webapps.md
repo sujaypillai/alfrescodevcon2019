@@ -428,7 +428,7 @@ Head over to `http://localhost:8888` and your app should be live. **Note** If yo
 Hit the Refresh button in the web browser to see a few more cat images.
 
 ### 2.3.4 Push your image
-Now that you've created and tested your image, you can push it to [Docker Cloud](https://cloud.docker.com).
+Now that you've created and tested your image, you can push it to [Docker Hub](https://hub.docker.com).
 
 First you have to login to your Docker Cloud account, to do that:
 
